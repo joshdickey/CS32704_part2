@@ -1,0 +1,122 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joshd.cs32704_part2.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txvItemAmount1"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/item_Amount" />
+
+            <EditText
+                android:id="@+id/edtItemAmount1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:layout_weight="1"
+                tools:cursorVisible="false"
+                android:layout_marginEnd="32dp"
+                android:textAlignment="textEnd"
+                tools:ignore="LabelFor" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/item_Amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txvItemAmount2"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/edtItemAmount2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                tools:cursorVisible="false"
+                android:layout_marginEnd="32dp"
+                android:textAlignment="textEnd"
+                tools:ignore="LabelFor"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="@string/item_Amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txvItemAmount3"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/edtItemAmount3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                tools:cursorVisible="false"
+                android:layout_marginEnd="32dp"
+                android:textAlignment="textEnd"
+                tools:ignore="LabelFor"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/item_Amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txvItemAmount4"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/edtItemAmount4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                tools:cursorVisible="false"
+                android:layout_marginEnd="32dp"
+                android:textAlignment="textEnd"
+                tools:ignore="LabelFor"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
